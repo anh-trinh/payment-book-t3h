@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#00ccff">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:text="T3H" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TRỊNH NGỌC THẾ ANH"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XIN CHÀO"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="22sp"/>
+</RelativeLayout>

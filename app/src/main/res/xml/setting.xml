@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Cài đặt">
+        <EditTextPreference
+            android:name="Change Name"
+            android:summary="Thay đổi tên của bạn"
+            android:title="Đổi tên"
+            android:key="name" />
+        <CheckBoxPreference
+            android:key="pass_security"
+            android:title="Bật mật khẩu"
+            android:summary="Bật hoặc tắt mật khẩu khi khởi động"
+            android:defaultValue="false" />
+        <EditTextPreference
+            android:name="Change Password"
+            android:summary="Thay đổi mật khẩu của bạn"
+            android:title="Đổi mật khẩu"
+            android:key="password"
+            android:inputType="numberPassword"/>
+        <EditTextPreference
+            android:name="Payment Limitation"
+            android:summary="Giới hạn chi tiêu trong tháng của bạn"
+            android:title="Giới hạn"
+            android:key="payment_limit" />
+        <Preference
+            android:title="Thông tin"
+            android:summary="Xem thông tin ứng dụng"
+            android:key="about" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
